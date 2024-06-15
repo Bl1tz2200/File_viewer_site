@@ -38,7 +38,7 @@ You should add ip and port of an API to the site_code_inside.js<br>
 Now you can run apache2:<br>
 $  systemctl start apache2<br>
 And see your File viwer site on you ip address.<br>
-I used it with VPN to have secure cloud vault for my files.<br>
+I used it with VPN to have secure cloud vault for my files and backups.<br>
 
 
 
