@@ -1,6 +1,10 @@
 # File_viewer_site
 I made site where you can see your files from chosen directory. For an API I used python Flask.<br>
-I made default authentication page too, but I would definitely recommend to change it because it has low protection.
+I made default authentication page too, but I would definitely recommend to change it because it has low protection.<br>
+<br>
+This is the architecture of my site:<br>
+![photo_2024-06-15_18-19-58](https://github.com/Bl1tz2200/File_viewer_site/assets/154754925/03e70c2a-3dad-4e88-a752-98f5f0fb70d3)<br>
+<br>
 
 # Let's start
 To have access for server with browser, install apache2 for your server.<br>
