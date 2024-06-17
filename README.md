@@ -30,7 +30,7 @@ After all, change api.config\['UPLOAD_FOLDER'\] value to */var/www/html/(your_di
 Your API is ready to work.<br>
 Run:<br>
 <br>
-$  flask run<br>
+$  ./app.py<br>
 <br>
 And your API will start working. All needed information will be displayed in the terminal.<br>
 You should add ip and port of an API to the site_code_inside.js.<br>
