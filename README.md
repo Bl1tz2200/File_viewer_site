@@ -5,7 +5,7 @@ As server OS I used Ubuntu 22.04.<br>
 
 # Let's start
 To have access for server with browser, install apache2 for your server.<br>
-To have access to the folder for an API create directory *(your_dir_name)* inside */var/www/html* and use */(your_dir_name)* in ***path*** inside **site_code_inside.js**<br>
+To have access to the folder for an API create directory *(your_dir_name)* inside */var/www/html* and use */(your_dir_name)* in ***path*** inside **site_code_inside.js**.<br>
 Then move all from **site_inside**  folder to the */var/www/html*.<br>
 After that rename **site_inside.html** to **index.html**.<br>
 (Of coarse you can change apache2.conf instead of renaming or you can use other Web server instead of apache2)<br>
@@ -13,7 +13,7 @@ After that rename **site_inside.html** to **index.html**.<br>
 <br>
 
 # API installation
-Install python3, python3-pip and python-virtualenv<br>
+Install python3, python3-pip and python-virtualenv:<br>
 <br>
 $  sudo apt-get install python3 python3-pip python3-virtualenv<br>
 <br>
@@ -26,14 +26,14 @@ Then put directory **site_server_side** anywhere, go inside it and set virtualen
 $  cd site_server_side<br>
 $  sudo virtualenv flask<br>
 <br>
-After all, change api.config\['UPLOAD_FOLDER'\] value to */var/www/html/(your_dir_name)*<br>
+After all, change api.config\['UPLOAD_FOLDER'\] value to */var/www/html/(your_dir_name)*.<br>
 Your API is ready to work.<br>
 Run:<br>
 <br>
 $  sudo ./app.py<br>
 <br>
 And your API will start working. All needed information will be displayed in the terminal.<br>
-You should add ip and port of an API to the site_code_inside.js<br>
+You should add ip and port of an API to the site_code_inside.js.<br>
 ****DON'T FORGET TO CHANGE VALUE OF api.config\['UPLOAD_FOLDER'\] TO /var/www/html/(your_dir_name)!!!****<br>
 <br>
 
