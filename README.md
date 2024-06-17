@@ -1,5 +1,6 @@
 # File_viewer_site
 I made site where you can see your files from chosen directory. For an API I used python Flask.<br>
+As server OS I used Ubuntu 22.04.<br>
 <br>
 
 # Let's start
