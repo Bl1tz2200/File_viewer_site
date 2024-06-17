@@ -44,6 +44,7 @@ Create new user with password:<br>
 $  htpasswd -cm /ENTER/YOUR/PATH/WHERE/WILL/SAVE/.htpasswd  YOUR_USER<br>
 <br>
 Then create file *.htaccess* inside /var/www/html and write inside it (don't forget to change AuthUserFile path:<br>
+<br>
 $  sudo touch /var/www/html/.htaccess<br>
 $  printf 'AuthType Basic\nAuthName "Secure Content"\nAuthUserFile /ENTER/YOUR/PATH/TO/.htpasswd\nrequire valid-user' | sudo tee /var/www/html/.htaccess<br>
 <br>
@@ -54,7 +55,7 @@ $  sudo vi /etc/apache2/sites-available/YOUR_SITE.conf<br>
 Add this lines after \</VirtualHost\>:<br>
 <br>
 <Directory /var/www/html/ ><br>
-        &emsp;AllowOverride AuthConfig<br>
+&emsp;&emsp;&emsp;AllowOverride AuthConfig<br>
 \</Directory\><br>
 <br>
 Then enable YOUR_SITE.conf:<br>
