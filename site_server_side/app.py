@@ -1,4 +1,4 @@
-#!flask/bin/python
+#!flask/local/bin/python
 from flask import Flask, render_template, request, make_response, Response
 import os
 
