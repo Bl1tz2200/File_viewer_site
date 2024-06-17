@@ -66,7 +66,9 @@ Now your site will have Basic Auth with login and password.<br>
 
 # What after
 Run apache2:<br>
+<br>
 $  systemctl start apache2<br>
+<br>
 And see your File viwer site on you ip address.<br>
 I used this site with VPN to have secure cloud vault for my files and backups.<br>
 
