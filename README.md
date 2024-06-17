@@ -9,6 +9,7 @@ Then move all from **site_inside** and **site_outside** folders to the */var/www
 After that rename **site_outside.html** to **index.html**.<br>
 (Of coarse you can change apache2.conf instead of renaming or you can use other Web server instead of apache2)<br>
 I will recommend you to change authentication page because it is bad. I would recommend authentication with JWT token if you can do it.<br>
+You can use .htaccess too. It will be better for authentication and for use because you can remove **site_outside** part. I'd done it because I wanted to practise in frontend development.
 ****DON'T FORGET TO CHANGE VALUES OF THE VARIABLES INSIDE site_code_outside.js AND site_code_inside.js!!!****<br>
 <br>
 
