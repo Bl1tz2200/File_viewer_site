@@ -28,7 +28,9 @@ $  sudo virtualenv flask<br>
 After all, change api.config\['UPLOAD_FOLDER'\] value to */var/www/html/(your_dir_name)* 
 Your API is ready to work.<br>
 Run:<br>
+<br>
 $  sudo ./app.py<br>
+<br>
 And your API will start working. All needed information will be displayed in the terminal.<br>
 You should add ip and port of an API to the site_code_inside.js<br>
 ****DON'T FORGET TO CHANGE VALUE OF api.config\['UPLOAD_FOLDER'\] TO /var/www/html/(your_dir_name)!!!****<br>
