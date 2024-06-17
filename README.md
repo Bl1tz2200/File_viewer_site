@@ -48,11 +48,11 @@ After that add *AllowOverride AuthConfig* for your site directory (*/var/www/htm
 <br>
 $  sudo vi /etc/apache2/sites-available/YOUR_SITE.conf<br>
 <br>
-Add this lines after /</VirtualHost\/>:<br>
+Add this lines after \</VirtualHost\>:<br>
 <br>
 <Directory /var/www/html/ ><br>
         AllowOverride AuthConfig<br>
-/</Directory/><br>
+\</Directory\><br>
 <br>
 Then enable YOUR_SITE.conf:<br>
 <br>
