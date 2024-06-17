@@ -25,7 +25,7 @@ Then put directory **site_server_side** anywhere, go inside it and set virtualen
 $  cd site_server_side<br>
 $  sudo virtualenv flask<br>
 <br>
-After all, change api.config\['UPLOAD_FOLDER'\] value to */var/www/html/(your_dir_name)* 
+After all, change api.config\['UPLOAD_FOLDER'\] value to */var/www/html/(your_dir_name)*<br>
 Your API is ready to work.<br>
 Run:<br>
 <br>
