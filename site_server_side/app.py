@@ -4,7 +4,9 @@ import os
 
 app = Flask(__name__)
 
-app.config['UPLOAD_FOLDER'] = '/var/www/html/data'
+ip_api = "ENTER_YOUR_IP_ADDRESS"
+port_api = "ENTER_YOUR_PORT"
+app.config['UPLOAD_FOLDER'] = '/ENTER/YOUR/UPLOAD/FOLDER'
 
 @app.route('/upload-file', methods=['POST'])
 def upload_file():
@@ -38,4 +40,4 @@ def remove_files(file):
         return response
 
 if __name__ == "__main__":
-    app.run(host="25.60.122.48", port=8080)
+    app.run(host=ip_api, port=port_api)
