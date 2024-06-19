@@ -4,9 +4,9 @@ import os
 
 app = Flask(__name__)
 
-ip_api = "ENTER_YOUR_IP_ADDRESS"
-port_api = "ENTER_YOUR_PORT"
-app.config['UPLOAD_FOLDER'] = '/ENTER/YOUR/UPLOAD/FOLDER'
+ip_api = "ENTER_YOUR_IP_ADDRESS" # Ex: 127.0.0.1 (with out protocol)
+port_api = "ENTER_YOUR_PORT" # Ex: 8080
+app.config['UPLOAD_FOLDER'] = '/ENTER/YOUR/UPLOAD/FOLDER' # Ex: /var/www/html/data
 
 @app.route('/upload-file', methods=['POST'])
 def upload_file():
