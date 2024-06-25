@@ -34,6 +34,7 @@ $  ./app.py<br>
 <br>
 And your API will start working. All needed information will be displayed in the terminal.<br>
 You should add ip and port of an API to the site_code_inside.js.<br>
+Remember, that you should run app.py only from folder where you have placed it. (First you should cd to it, and them run ./app.py)<br>
 If you have troubles with flask try removing *python3 python3-pip python3-virtualenv* and *flask virtualenv*<br>
 ****DON'T FORGET TO CHANGE VALUE OF api.config\['UPLOAD_FOLDER'\] TO /var/www/html/(your_dir_name). DON'T FORGET TO CHANGE VALUES OF ip_api AND port_api TOO!!!****<br>
 <br>
