@@ -11,7 +11,7 @@ After that rename **site_inside.html** to **index.html**.<br>
 (Of coarse you can change apache2.conf instead of renaming or you can use other Web server instead of apache2)<br>
 ```DON'T FORGET TO CHANGE VALUES OF THE VARIABLES INSIDE site_code_inside.js!!!```
 <br>
-
+<br>
 # API installation
 Install python3, python3-pip and python-virtualenv:<br>
 <br>
