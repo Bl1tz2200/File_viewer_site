@@ -8,12 +8,12 @@ To have access for server with browser, install apache2 for your server.<br>
 <br>
 To have access to the folder for an API create directory *(your_dir_name)* inside */var/www/html* and use */(your_dir_name)* in ***path*** inside **site_code_inside.js**.<br>
 <br>
+****You need to specify some variables inside site_code_inside.js****<br>
+<br>
 Then move all from **Frontend**  folder to the */var/www/html*.<br>
 <br>
 After that rename **site_inside.html** to **index.html**.<br>
 (Of coarse you can change apache2.conf instead of renaming or you can use other Web server instead of apache2)<br>
-<br>
-```DON'T FORGET TO CHANGE VALUES OF THE VARIABLES INSIDE site_code_inside.js!!!```
 <br>
 <br>
 # API installation
@@ -27,10 +27,12 @@ After installing virtualenv install flask:<br>
 <br>
 Then put directory **Backend** anywhere, go inside it and set virtualenv flask:<br>
 <br>
-```$  cd site_server_side```<br>
-```$  sudo virtualenv flask```<br>
+<pre>
+$  cd site_server_side
+$  sudo virtualenv flask</pre>
 <br>
 After all, change api.config\['UPLOAD_FOLDER'\] value to */var/www/html/(your_dir_name)*.<br>
+And don't forget to specify values of **ip_api** and **port_api** inside *app.py*
 Your API is ready to work.<br>
 Run:<br>
 <br>
@@ -42,9 +44,6 @@ You should add ip and port of an API to the site_code_inside.js.<br>
 Remember, that you should run app.py only from folder where you have placed it. (First you should cd to it, and them run ./app.py)<br>
 <br>
 If you have troubles with flask try removing *python3 python3-pip python3-virtualenv* and *flask virtualenv*<br>
-<br>
-```DON'T FORGET TO CHANGE VALUE OF api.config\['UPLOAD_FOLDER'\] TO /var/www/html/(your_dir_name).```<br>
-```DON'T FORGET TO CHANGE VALUES OF ip_api AND port_api TOO!!!```<br>
 <br>
 
 # Security
