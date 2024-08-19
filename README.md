@@ -29,8 +29,8 @@ Then put directory **Backend** anywhere, go inside it and set virtualenv flask:<
 <br>
 <pre>
 $  cd site_server_side
-$  sudo virtualenv flask</pre>
-<br>
+$  sudo virtualenv flask</pre><br>
+
 After all, change api.config\['UPLOAD_FOLDER'\] value to */var/www/html/(your_dir_name)*.<br>
 And don't forget to specify values of **ip_api** and **port_api** inside *app.py*
 Your API is ready to work.<br>
