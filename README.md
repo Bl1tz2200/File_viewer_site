@@ -56,8 +56,8 @@ Then create file *.htaccess* inside /var/www/html and write inside it (don't for
 <br>
 <pre>
 $  sudo touch /var/www/html/.htaccess
-$  printf 'AuthType Basic\nAuthName "Secure Content"\nAuthUserFile /ENTER/YOUR/PATH/TO/.htpasswd\nrequire valid-user' | sudo tee /var/www/html/.htaccess</pre>
-<br>
+$  printf 'AuthType Basic\nAuthName "Secure Content"\nAuthUserFile /ENTER/YOUR/PATH/TO/.htpasswd\nrequire valid-user' | sudo tee /var/www/html/.htaccess</pre><br>
+
 After that add *AllowOverride AuthConfig* for your site directory (*/var/www/html*) inside your site config in apache2:<br>
 <br>
 ```$  sudo vi /etc/apache2/sites-available/YOUR_SITE.conf```<br>
