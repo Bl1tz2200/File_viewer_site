@@ -54,8 +54,9 @@ Create new user with password:<br>
 <br>
 Then create file *.htaccess* inside /var/www/html and write inside it (don't forget to change AuthUserFile path:<br>
 <br>
-```$  sudo touch /var/www/html/.htaccess```<br>
-```$  printf 'AuthType Basic\nAuthName "Secure Content"\nAuthUserFile /ENTER/YOUR/PATH/TO/.htpasswd\nrequire valid-user' | sudo tee /var/www/html/.htaccess```<br>
+<pre>
+$  sudo touch /var/www/html/.htaccess
+$  printf 'AuthType Basic\nAuthName "Secure Content"\nAuthUserFile /ENTER/YOUR/PATH/TO/.htpasswd\nrequire valid-user' | sudo tee /var/www/html/.htaccess</pre>
 <br>
 After that add *AllowOverride AuthConfig* for your site directory (*/var/www/html*) inside your site config in apache2:<br>
 <br>
